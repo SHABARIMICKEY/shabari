@@ -1,42 +1,167 @@
-.card{
-  background-image: url("https://thumbs.dreamstime.com/b/rice-mill-landscape-shot-plant-green-field-47345207.jpg");
-  text-align: center;
-  height: 100vh;
-  background-size: cover;
-  border-top-left-radius: 25px;
-  border-top-right-radius: 25px;
-  padding: 60px;
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
-
+*{
+	margin: 2000;
+	padding: 20;
+	box-sizing: border-box;
+	outline: none;
+	list-style: none;
+	text-decoration: none;
+	font-family: 'times new roman';
 }
-cardup{
-  background-color: white;
-  
 
+body{
+	background: rgb(255, 255, 255);
+	font-size: 20px;
 }
-  .main-hading{
-    color: rgb(255, 231, 15);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-    font-weight:bolder;
-    font-style:italic;
-    text-decoration:underline;
 
-  }
-  .main-para{
-    color: rgb(0, 0, 0);
-    font-family:'Times New Roman', Times, serif;
-    font-size: 30px;
-    font-weight:780;
-    font-style:normal;
+.wrapper .header{
+	max-width: 350px;
+	width: 100%;
+	height: auto;
+	margin: 50px auto;
+}
 
-  }
-  button{
-    height: 45px;
-    width: 105px;
-    color: black ;
-    background-color: rgb(255, 231, 15);
-    border-radius: 100px;
-    border-width: 0px;
+.wrapper .header .top,
+.wrapper .signup{
+	background: #fff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    padding: 40px 40px 20px;
+}
 
-  }
+.wrapper .header .logo img{
+	display: block;
+	margin: 0 auto 35px;
+}
+
+.wrapper .header .form .input_field{
+	margin-bottom: 5px;
+}
+
+.wrapper .header .form .input_field .input{
+	width: 100%;
+	background: #fffafa;
+	border: 3px solid #fffdffbc;
+	font-size: 14px;
+	border-radius: 10px;
+	color: rgb(213, 36, 249);
+	padding: 20px;
+}
+
+.wrapper .header .form .input_field .input:focus{
+	border: 3px solid #000000;
+    padding: 15px;
+}
+
+.wrapper .header .form .btn{
+	margin: 10px 0;
+	background-color: #000000;
+    border: 1px solid #ffffffd9;
+    border-radius: 7px;
+    text-align: center;
+    padding: 8px;
+}
+
+.wrapper .header .form .btn a{
+	color: #fff;
+	display: block;
+}
+
+.wrapper .header .or{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 15px;
+	margin: 15px 0 20px;
+}
+
+.wrapper .header .or .line{
+	width: 110px;
+	height: 3px;
+	background: #000000
+}
+
+.wrapper .header .or p{
+	color: #380cea;
+	font-size: 17px;
+    font-style:inherit; 
+}
+
+.wrapper .dif .fb{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper .dif .fb img{
+	width: 16px;
+	height: 16px;
+}
+
+.wrapper .dif  .fb p{
+	color: #0c50e3;
+	font-weight: 500;
+	margin-left: 10px;
+}
+
+.wrapper .dif .forgot{
+	font-size: 12px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.wrapper .dif .Neglect Passcode a{
+	color: #19eb20;
+}
+
+.wrapper .signup{
+	margin: 10px 0 20px;
+	padding: 25px 40px;
+	text-align: center;
+	color: #262626;
+}
+
+.wrapper .signup a{
+	color: rgb(213, 36, 249);
+}
+
+.wrapper .apps{
+	text-align: center;
+	color: #262626;
+}
+
+.wrapper .apps p{
+	margin-bottom: 20px;
+}
+
+.wrapper .apps a img{
+	width: 135px;
+	height: 40px;
+	margin: 0 5px;
+}
+
+.footer{
+	max-width: 935px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 40px 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer .links ul li{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.footer .links ul li a{
+	color: #003569;
+	font-size: 12px;
+}
+
+.footer .copyright{
+	color: #010d0d;
+    border: 0px solid #e4ca06e1;
+    padding: 10px;
+}	
